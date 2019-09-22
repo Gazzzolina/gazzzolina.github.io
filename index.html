@@ -99,11 +99,12 @@ table {width: 400px;}
 	</div>
 
 <h3>Есть что сказать по поводу моей осьминожки?</h3>
-<form name="mailex" method="post" ectype="text/plain" action="mailto:gra4_9317@mail">
-<textarea style="width:500px; height:150px; name="message" id="message" placeholder="Место для разумной критики"></textarea>
-<div>
-<input type="submit" value="Отправить стажёру Галине">
-</div>
+<form action="send.php" method="post">
+
+Ваше имя <input type="text" name="first_name"><br>
+Email: <input type="text" name="email" required placeholder="Обязательное поле"><br>
+Сообщение:<br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Submit">
 </form>
 					
   
